@@ -187,6 +187,7 @@ At this point:
 - Frequency response plateau at Av ≈ 20 dB  
 - Consistent with theoretical estimation  
 <img width="341" height="482" alt="image" src="https://github.com/user-attachments/assets/936b6f77-b0f0-4fc1-b5e4-abf959b33e4a" />
+
 Figure 2.4 – Operating point (.op) annotations
 
 <img width="533" height="344" alt="image" src="https://github.com/user-attachments/assets/05694d68-c6c6-45c7-aa8a-7e0484280cfe" />
