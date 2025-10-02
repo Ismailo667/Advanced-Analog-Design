@@ -63,6 +63,7 @@ r0 = 1 / gDS = 217.344 kΩ
 
 
 These reference values were used for graphical verification.
+
 <img width="364" height="329" alt="image" src="https://github.com/user-attachments/assets/c302af0a-7b52-45c2-840f-e25d7bbe436f" />
 
 Figure 1.2 – Annotated DC operating point (VGS=1 V, VDS=2 V)
@@ -84,6 +85,7 @@ The sweep was repeated for VDS ranging from 0.3 V to 3.0 V (step 0.3 V).
 The threshold voltage Vth is visible, with quadratic increase beyond.  
 
 At (VGS, VDS) = (1 V, 2 V), ID ≈ 66.96 μA, consistent with the .op analysis.
+
 <img width="367" height="195" alt="image" src="https://github.com/user-attachments/assets/1131b655-c24b-49ab-b350-8ee0f9fc2e9e" />
 
 ---
@@ -91,6 +93,7 @@ At (VGS, VDS) = (1 V, 2 V), ID ≈ 66.96 μA, consistent with the .op analysis.
 ### 1.5 Graphical Verification of the Bias Point
 The bias point (VGS=1 V, VDS=2 V) was verified independently on both iD–vDS and iD–vGS curves.  
 In both cases, ID ≈ 66.96 μA, confirming consistency between simulation and graphical reading.  
+
 <img width="424" height="274" alt="image" src="https://github.com/user-attachments/assets/5ecab9d2-a6d0-479f-b808-c4cca81bf0ba" />
 
 ---
@@ -113,6 +116,7 @@ With:
 **Difference explanation**: real transistor models include effects ignored in the quadratic equation (carrier mobility reduction, velocity saturation, channel length modulation).  
 
 Thus, simulation reflects physical reality better, though theory provides intuition.
+
 <img width="475" height="315" alt="image" src="https://github.com/user-attachments/assets/d2cdc0df-5ba5-4797-9e1f-16f279e430c3" />
 
 ---
@@ -128,6 +132,7 @@ The amplifier was designed with:
 - Output taken at the drain  
 
 This ensures the output is centered near VDD/2.
+
 <img width="362" height="376" alt="image" src="https://github.com/user-attachments/assets/d0b84565-4120-457f-98af-14f54577abfd" />
 
 Figure 2.1 – Common-source amplifier schematic
@@ -139,7 +144,8 @@ Figure 2.1 – Common-source amplifier schematic
 - **Transient simulation**: with input sine (10 mVpp), output showed ≈57 mVpp with 180° phase inversion.  
 Gain ≈ -5.7.  
 
-- **AC analysis**: with Vin = 1 V AC, Bode plot confirmed ≈ 15 dB gain at low frequency.  
+- **AC analysis**: with Vin = 1 V AC, Bode plot confirmed ≈ 15 dB gain at low frequency.
+- 
 <img width="605" height="280" alt="image" src="https://github.com/user-attachments/assets/f7493e8a-1f4f-4d3a-88d8-a20cd0eb03b8" />
 
 ---
@@ -155,6 +161,7 @@ From .op annotations: gm, gds → compute r0.
 → Simulation confirmed ≈ 15 dB.  
 
 Small differences come from non-idealities (channel length modulation, finite input amplitude, sweep step).
+
 <img width="605" height="390" alt="image" src="https://github.com/user-attachments/assets/398fb5d5-d840-4f2d-a8e3-9713004eab48" />
 
 ---
@@ -185,7 +192,8 @@ W = 44 μm (L = 2 μm)
 At this point:  
 - Output ≈ VDD/2  
 - Frequency response plateau at Av ≈ 20 dB  
-- Consistent with theoretical estimation  
+- Consistent with theoretical estimation
+- 
 <img width="341" height="482" alt="image" src="https://github.com/user-attachments/assets/936b6f77-b0f0-4fc1-b5e4-abf959b33e4a" />
 
 Figure 2.4 – Operating point (.op) annotations
